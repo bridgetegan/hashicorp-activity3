@@ -1,3 +1,4 @@
+```YAML
 ---
 title: Sample Question
 type: select_one
@@ -20,5 +21,7 @@ options:
   - id: g
   - text: "Any of the above"
 ---
+```
+
 
 Terraform has several built-in commands for reading files: `file`, `filebase64`, `fileexists`, and `templatefile`. A developer needs to read some input from a local file called `id_rsa.pub` that resides in the same directory as the configuration used to import the file’s contents as a string. Which built-in Terraform command should the developer use based on this input?
